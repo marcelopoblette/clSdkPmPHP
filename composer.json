@@ -1,0 +1,19 @@
+{
+    "name": "pf/php",
+    "description": "php sdk from pf",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "mp",
+        "email": "marcelo.poblete@pagofacil.cl"
+    }],
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/pstpagofacil/sdk-apis-php.git"
+    }],
+    "require": {
+        "pstpagofacil/sdk-apis-php": "*@dev",
+
+        "pstpagofacil/sdk-apis-php-signature": "^1.0"
+    }
+}
